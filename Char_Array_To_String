@@ -1,0 +1,11 @@
+public class CharacterArrayJoiner {
+    public static void main(String[] args) {
+        char[] charArray = {'H', 'e', 'l', 'l', 'o'};
+
+        // Using String constructor to join character array
+        String result = new String(charArray);
+
+        System.out.println("Joined word: " + result);
+    }
+}
+￼Enter
